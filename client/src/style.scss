@@ -66,9 +66,17 @@ $lightGreen: #b9e7e7;
       .container{
         padding: 10px 0px;
         display: flex;
+        align-items: center;
         justify-content: space-between;
-        .logo{}
-        .links{}
+        .logo{
+          img{
+            width: 100px;
+          }
+        }
+        .links{
+          display: flex;
+          gap: 10px;
+        }
       }
     }
   }
