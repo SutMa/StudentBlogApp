@@ -70,15 +70,59 @@ $lightGreen: #b9e7e7;
         justify-content: space-between;
         .logo{
           img{
-            width: 100px;
+            width: 60px;
           }
         }
         .links{
           display: flex;
-          gap: 10px;
+          align-items: center;
+          gap: 15px;
+          h6{
+            font-size: 16px;
+            font-weight: 300px;
+          }
+
+          span{
+            cursor: pointer;
+          }
+
+          .write{
+            background-color: rgb(240, 167, 167);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 300;
+            &:hover{
+              width: 48px;
+              height: 48px;
+              color:  rgb(240, 167, 167);
+              background-color: white;
+              border: 1px solid;
+            }
+          }
+
         }
       }
     }
+
+    //FOOTER STYLES
+    footer{
+      margin-top: 100px;
+      padding: 20px;
+      background-color:  rgb(240, 167, 167);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 13px;
+      img{
+        width: 60px;
+        
+      }
+    }
+
   }
 
 

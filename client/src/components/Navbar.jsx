@@ -23,10 +23,10 @@ function Navbar() {
           <Link className='link' to='/?cat=jobs'>
             <h6>JOBS</h6>
           </Link>
-          <span>JOhn</span>
+          <span>Username</span>
           <span>Logout</span>
           <span className='write'>
-            <Link to='/write'>Write</Link>
+            <Link className='link'to='/write'>Write</Link>
           </span>
         </div>
       </div>
