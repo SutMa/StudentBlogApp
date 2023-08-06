@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Register = () => {
+
+  const [input,setInput] = useState({
+    username: '',
+  })
+ 
   return (
     <div className='auth'>
       <h1>Register</h1>
