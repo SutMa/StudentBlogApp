@@ -33,12 +33,12 @@ const Login = () => {
         <input required type="text" placeholder='username' name='username' onChange={handleChange}/>
         <input required type="password" placeholder='password' name='password' onChange={handleChange}/>
         <button onClick={handleSubmit}>Login</button>
-       {err & <p>This is an error!</p>}
+       {err && <p>This is an error!</p>}
         <span>Don't have an account?<Link to='/register'> Register</Link></span>
       </form>
     </div>
   )
 }
 
-//Git hub Cheat day
+
 export default Login
